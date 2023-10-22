@@ -52,16 +52,6 @@ export default function Weather() {
             <img src={weather.icon} alt={weather.description} />
           </li>
         </ul>
-        <footer>
-          Coded by <strong>MakanakaG</strong> and
-          <a
-            href="https://github.com/Maka119/weather-app-react"
-            target="_blank"
-            rel="noreferrer"
-          >
-            open-sourced on GitHub
-          </a>
-        </footer>
       </div>
     );
   } else {
