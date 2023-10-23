@@ -1,17 +1,13 @@
-import Weather from "./weather";
-import React from "react";
-
 import "./App.css";
+import Weather from "./Weather";
 
-export default function App() {
+function App() {
   return (
     <div className="App">
-      <div className="container mb-0">
-        <header className="App-header">
-          <h1>Weather Search Engine</h1>
-          <Weather />
-        </header>
-        <footer>
+      <div className="container">
+        <h1 style={{ padding: "1rem" }}>Weather App</h1>
+        <Weather defaultCity="Durban" />
+        <footer className="footer">
           Coded by <strong>MakanakaG</strong> and
           <a
             href="https://github.com/Maka119/weather-app-react"
@@ -33,3 +29,5 @@ export default function App() {
     </div>
   );
 }
+
+export default App;
