@@ -1,5 +1,6 @@
 .WeatherForecast {
-  text-align: center;
+  content: attr(data-unit);
+  margin-left: 4px;
 }
 
 .WeatherForecast-temperature-min {

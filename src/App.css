@@ -1,4 +1,4 @@
-.App {
+.App { 
   text-align: center;
 }
 
@@ -11,6 +11,23 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+}
+.App {
+  max-width: 800px;
+  margin: 40px auto;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.2);
+  color: white;
+}
+body {
+  background-image: url(./images/background2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+footer {
+  font-size: 15px;
+  margin: 10px 0;
 }
 
 .App-header {
